@@ -1,0 +1,12 @@
+lis3mdl.pbi: \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Drivers\BSPv2\Components\lis3mdl\lis3mdl.c \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Drivers\BSPv2\Components\lis3mdl/lis3mdl.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Drivers\BSPv2\Components\lis3mdl/lis3mdl_reg.h \
+  D:\Keil\IAR\arm\inc\c\stdint.h D:\Keil\IAR\arm\inc\c\ycheck.h \
+  D:\Keil\IAR\arm\inc\c\yvals.h D:\Keil\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\Keil\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product.h D:\Keil\IAR\arm\inc\c\math.h \
+  D:\Keil\IAR\arm\inc\c\DLib_float_setup.h \
+  D:\Keil\IAR\arm\inc\c\stddef.h D:\Keil\IAR\arm\inc\c\ysizet.h \
+  D:\Keil\IAR\arm\inc\c\string.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product_string.h

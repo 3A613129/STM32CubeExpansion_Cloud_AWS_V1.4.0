@@ -1,0 +1,45 @@
+stm32l4xx_hal_rtc.pbi: \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rtc.c \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\Inc\stm32l4xx_hal_conf.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rcc.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_def.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include/stm32l475xx.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Include\core_cm4.h \
+  D:\Keil\IAR\arm\inc\c\stdint.h D:\Keil\IAR\arm\inc\c\ycheck.h \
+  D:\Keil\IAR\arm\inc\c\yvals.h D:\Keil\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\Keil\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Include/cmsis_version.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Include\cmsis_iccarm.h \
+  D:\Keil\IAR\arm\inc\c\iccarm_builtin.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Include/mpu_armv7.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32L4xx\Include/system_stm32l4xx.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/Legacy/stm32_hal_legacy.h \
+  D:\Keil\IAR\arm\inc\c\stddef.h D:\Keil\IAR\arm\inc\c\ysizet.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_rcc_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_gpio.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_gpio_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_dma.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_cortex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_exti.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_flash.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_flash_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_flash_ramfunc.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_sram.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_ll_fmc.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_i2c.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_i2c_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_pwr.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_pwr_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rng.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_rtc.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_rtc_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_spi.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_spi_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_tim.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_tim_ex.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc\stm32l4xx_hal_uart.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Inc/stm32l4xx_hal_uart_ex.h

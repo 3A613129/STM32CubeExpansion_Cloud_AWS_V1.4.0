@@ -1,0 +1,2942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>1317886809</fileChecksum>
+    <configuration>
+        <name>B-L475E-IOT01_AWS</name>
+        <outputs>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lsm6dsl_reg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lis3mdl_reg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lps22hb_reg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_calibration.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_core.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lps22hb.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lsm6dsl.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_timer.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_network_st_wrapper.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\STM32CubeRTCInterface.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\main.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_platform.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_subscribe_publish_sensor_values.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\http_lib.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\set_credentials.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sensors_data.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\flash_l4.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_proximity.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\es_wifi.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_env_sensors.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\mbedtls_entropy.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\iot_flash_config.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_motion_sensors.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_bus.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hts221.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timingSystem.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rfu.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timedate.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hts221_reg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lis3mdl.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_conf.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_it.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cloud.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pem.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pk_wrap.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs11.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs12.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs5.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pk.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecdh.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecp_curves.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\entropy_poll.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\gcm.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\des.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\error.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\havege.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md2.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md4.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md5.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecdsa.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md_wrap.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\entropy.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hmac_drbg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\memory_buffer_alloc.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\oid.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\padlock.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecjpake.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecp.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\dhm.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\mbedtls_entropy.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\version.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_platform.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\flash_l4.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cookie.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_timer.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_ticket.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_tls.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timedate.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_crt.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509write_csr.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\startup_stm32l475xx.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_subscribe_publish_sensor_values.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_csr.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timingSystem.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\threading.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_conf.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_msp.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\xtea.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_network_st_wrapper.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_srv.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timing.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_crl.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\STM32CubeRTCInterface.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_it.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_proximity.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cloud.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\version_features.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_create.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509write_crt.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_crc_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lsm6dsl.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\iot_flash_config.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hts221.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lis3mdl.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lps22hb.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_bus.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_calibration.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_platform_log.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hts221_reg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_ranging.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_env_sensors.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\system_stm32l4xx.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_can.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\set_credentials.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_strings.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\es_wifi.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\http_lib.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rfu.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sensors_data.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lis3mdl_reg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_core.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_crc.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lps22hb_reg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\lsm6dsl_reg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l475e_iot01_motion_sensors.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\des.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\havege.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs5.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecdsa.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\platform.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\padlock.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\gcm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md_wrap.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\error.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\entropy.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\hmac_drbg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecjpake.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pk_wrap.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\oid.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pk.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\memory_buffer_alloc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs11.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md5.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\debug.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs12.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkparse.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\dhm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecdh.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md2.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkwrite.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\entropy_poll.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecp_curves.c</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dac.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_nor.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_qspi.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_lptim.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_exti.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_iwdg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_nand.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rng.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_hash_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_hash.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_sram.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dac_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dma_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_usart_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_records.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\jsmn.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aes.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_json.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_os.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_usart.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_wwdg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_address.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_mbedtls.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_class_extension.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_interface.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_json_utils.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_topics.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_common_internal.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_publish.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_types.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_ll_fmc.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_es_wifi.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_core.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_connect.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_subscribe.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_unsubscribe.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_yield.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_socket.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_actions.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_json.xcl</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\asn1write.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cipher.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\blowfish.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\camellia.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\certs.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ccm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cmac.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ctr_drbg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\arc4.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cipher_wrap.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aesni.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aria.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\asn1parse.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\base64.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\bignum.c</file>
+            <file>$PROJ_DIR$\..\Src\main.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32l4xx_it.c</file>
+            <file>$PROJ_DIR$\..\Src\vl53l0x_proximity.c</file>
+            <file>$PROJ_DIR$\..\Src\vl53l0x_platform.c</file>
+            <file>$PROJ_DIR$\..\Src\net_conf.c</file>
+            <file>$PROJ_DIR$\..\Src\stm32l4xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\platform\STM32Cube\aws_network_st_wrapper.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\samples\STM32Cube\aws_subscribe_publish_sensor_values.c</file>
+            <file>$PROJ_DIR$\..\Src\mbedtls_entropy.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\platform\STM32Cube\aws_timer.c</file>
+            <file>$PROJ_DIR$\..\Src\flash_l4.c</file>
+            <file>$PROJ_DIR$\..\Src\sensors_data.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_crc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cryp.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\cloud.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Utilities\CLD_utils\http_lib\http_lib.c</file>
+            <file>$PROJ_DIR$\..\Src\set_credentials.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dac_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\timingSystem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cryp_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dfsdm.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dfsdm_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_crc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\iot_flash_config.c</file>
+            <file>$PROJ_DIR$\startup_stm32l475xx.s</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_hash.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\STM32CubeRTCInterface.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dac.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_hash_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\timedate.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\rfu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_ciphersuites.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cookie.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\version_features.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_crt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cli.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_ticket.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_create.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509write_crt.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha1.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha512.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_srv.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\threading.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\version.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\rsa.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_address.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\platform_util.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ripemd160.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_crl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_csr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_os.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cache.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_socket.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509write_csr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\timing.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\xtea.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_class_extension.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_tls.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\rsa_internal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha256.c</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha256.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cache.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_ciphersuites.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cli.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha512.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_crc_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_platform_log.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\system_stm32l4xx.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dac.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dac_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_ranging.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_can.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\vl53l0x_api_strings.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_crc.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_hash.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_iwdg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_nor.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_hash_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_nand.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_qspi.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_sram.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rng.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_lptim.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_usart.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_dma_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cipher_wrap.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_records.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\certs.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cmac.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ctr_drbg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\camellia.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_publish.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_connect.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\arc4.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_actions.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\bignum.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\debug.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_shadow_json.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_unsubscribe.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aesni.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\asn1parse.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\jsmn.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_yield.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_subscribe.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_mqtt_client_common_internal.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aes.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\asn1write.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\blowfish.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ccm.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aria.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\base64.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cipher.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_class_extension.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_es_wifi.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_socket.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_interface.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_json.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_types.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_wwdg.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_mbedtls.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_json_utils.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_hal_usart_ex.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_address.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_core.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\stm32l4xx_ll_fmc.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\net_os.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aws_iot_jobs_topics.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\netif\wifi_if\es_wifi\net_es_wifi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\services\net_mbedtls.c</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkparse.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkwrite.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\platform_util.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rsa.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rsa_internal.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\platform.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ripemd160.o</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha1.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_subscribe.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_platform_log.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_unsubscribe.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_strings.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_yield.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_actions.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_env_sensors.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_records.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_json.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\jsmn\jsmn.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aes.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_calibration.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lps22hb\lps22hb_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lsm6dsl\lsm6dsl_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_motion_sensors.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lsm6dsl\lsm6dsl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_bus.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_types.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_topics.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_json_utils.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_common_internal.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_ranging.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_json.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_connect.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_publish.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_interface.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\es_wifi\es_wifi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\hts221\hts221.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rng.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_qspi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lis3mdl\lis3mdl_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lps22hb\lps22hb.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_wwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c</file>
+            <file>$PROJ_DIR$\..\Src\system_stm32l4xx.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_iwdg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_fmc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_lptim.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\hts221\hts221_reg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_nor.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rtc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lis3mdl\lis3mdl.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_nand.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_sram.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rtc_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_usart_ex.c</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Exe\B-L475E-IOT01_AWS.bin</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\Project.pbd</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Exe\B-L475E-IOT01.out</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\xtea.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_csr.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_crt.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509write_crt.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509write_csr.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_crl.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\version_features.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\x509_create.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\hmac_drbg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecjpake.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\entropy_poll.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\des.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecdsa.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\error.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\bignum.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aria.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ccm.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\aesni.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\debug.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecp_curves.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecdh.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\entropy.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md2.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cipher.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\arc4.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cipher_wrap.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md4.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\cmac.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ecp.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\blowfish.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ctr_drbg.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\certs.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\dhm.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\base64.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\asn1write.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\camellia.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\gcm.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\asn1parse.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\havege.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha256.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkwrite.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rsa_internal.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_ciphersuites.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\platform_util.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_ticket.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\memory_buffer_alloc.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs11.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha512.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\padlock.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_tls.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\timing.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cookie.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cache.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_cli.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\threading.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\version.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ssl_srv.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md5.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pem.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkparse.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs5.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pk.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\md_wrap.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\oid.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pkcs12.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\platform.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\pk_wrap.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\ripemd160.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\rsa.xcl</file>
+            <file>$PROJ_DIR$\B-L475E-IOT01\Obj\sha1.xcl</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\des.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 488</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\havege.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 516</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 40</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 538</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecdsa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 489</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\platform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 408</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 543</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\padlock.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 526</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\gcm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 514</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md_wrap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 540</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\error.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 491</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\entropy.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 499</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\hmac_drbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 56</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 485</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecjpake.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 486</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 504</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pk_wrap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 544</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\oid.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 541</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 539</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\memory_buffer_alloc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 523</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs11.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 524</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 506</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 53</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 490</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md5.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 535</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\debug.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 369</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 496</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 536</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkcs12.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 542</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkparse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 403</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 537</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\dhm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 510</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecdh.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 498</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\md2.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 500</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\pkwrite.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 404</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 518</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\entropy_poll.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 487</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ecp_curves.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 497</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\asn1write.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 380</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 512</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cipher.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 385</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 501</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\blowfish.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 381</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 507</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\camellia.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 363</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 513</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\certs.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 360</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 509</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ccm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 382</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 494</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cmac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 361</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 505</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ctr_drbg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 362</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 508</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\arc4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 366</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 502</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\cipher_wrap.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 357</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 503</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aesni.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 372</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 495</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aria.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 383</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 493</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\asn1parse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 373</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 515</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\base64.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 384</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 511</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\bignum.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 368</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 492</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32l4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 89</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\vl53l0x_proximity.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 90</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\vl53l0x_platform.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\net_conf.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\stm32l4xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\platform\STM32Cube\aws_network_st_wrapper.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\samples\STM32Cube\aws_subscribe_publish_sensor_values.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\mbedtls_entropy.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\platform\STM32Cube\aws_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 69</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\flash_l4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 66</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\sensors_data.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 16</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 117</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 320</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_crc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 312</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 95</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cryp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 323</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\cloud.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 35</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Utilities\CLD_utils\http_lib\http_lib.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\set_credentials.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 112</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dac_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 317</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\timingSystem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 78</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 326</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_cryp_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 315</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dfsdm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 318</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dfsdm_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 319</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 345</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 159</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 325</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 346</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 344</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 168</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\iot_flash_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 98</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32l475xx.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dma_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 356</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 188</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_hash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 328</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 181</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\STM32CubeRTCInterface.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 88</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 327</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_dac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 316</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 350</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_hash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 332</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 348</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Utilities\Time\timedate.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_can.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 322</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Misc_Utils\Src\rfu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_ciphersuites.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 309</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 520</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cookie.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 529</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\version_features.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 483</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_crt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 479</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cli.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 310</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 531</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_ticket.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 522</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_create.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 484</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509write_crt.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 480</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha1.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 410</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 547</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha512.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 311</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 525</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_srv.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 534</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\threading.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 532</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\version.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 533</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\rsa.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 406</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 546</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_address.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 396</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 198</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 397</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 211</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\platform_util.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 405</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 521</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ripemd160.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 409</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 545</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_crl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 482</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509_csr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 478</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_os.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 399</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_cache.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 308</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 530</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_socket.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 388</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 217</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509write_csr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 481</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\timing.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 528</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\x509.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 473</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\xtea.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 83</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 477</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\core\net_class_extension.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 386</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 200</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\ssl_tls.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 527</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\rsa_internal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 407</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 519</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\sha256.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 307</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 517</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 476</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\netif\wifi_if\es_wifi\net_es_wifi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 387</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 210</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\ST\STM32_Connect_Library\services\net_mbedtls.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 393</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 199</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_subscribe.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 376</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 213</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_platform_log.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 313</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 105</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_unsubscribe.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 371</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 214</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_strings.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 324</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 113</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_yield.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 375</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 215</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 358</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 216</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_actions.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 367</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 218</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_env_sensors.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 108</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_records.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 359</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_shadow_json.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 370</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 219</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\jsmn\jsmn.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 374</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 191</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\library\aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 379</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 1</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_calibration.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 104</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lps22hb\lps22hb_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lsm6dsl\lsm6dsl_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_motion_sensors.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lsm6dsl\lsm6dsl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\B-L475E-IOT01\stm32l475e_iot01_bus.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_types.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 391</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 207</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_topics.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 400</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 204</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_json_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 394</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 202</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 377</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_common_internal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 378</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 205</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\vl53l0x\vl53l0x_api_ranging.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 321</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_json.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 390</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_connect.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 365</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 212</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_mqtt_client_publish.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 364</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 206</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Middlewares\Third_Party\AWS\src\aws_iot_jobs_interface.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 389</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 201</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\es_wifi\es_wifi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\hts221\hts221.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 100</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rng.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 341</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 340</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_qspi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 334</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 166</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lis3mdl\lis3mdl_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 118</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lps22hb\lps22hb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 351</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 203</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_wwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 392</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 197</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 352</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 183</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Src\system_stm32l4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 314</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_iwdg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 329</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 353</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 172</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_ll_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 398</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 209</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_i2c_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 339</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_lptim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 343</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 169</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 335</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\hts221\hts221_reg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_nor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 331</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 342</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 347</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rtc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 349</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 175</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\BSPv2\Components\lis3mdl\lis3mdl.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_nand.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 333</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_sram.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 338</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 184</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 337</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_rtc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 336</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 355</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 196</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_uart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 354</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 208</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_pwr_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 330</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\..\Drivers\STM32L4xx_HAL_Driver\Src\stm32l4xx_hal_usart_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 395</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\B-L475E-IOT01\Exe\B-L475E-IOT01.out</name>
+            <outputs>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 474</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>

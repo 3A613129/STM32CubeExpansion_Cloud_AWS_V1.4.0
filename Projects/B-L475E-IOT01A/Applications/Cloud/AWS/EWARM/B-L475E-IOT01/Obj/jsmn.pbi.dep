@@ -1,0 +1,7 @@
+jsmn.pbi: \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Middlewares\Third_Party\jsmn\jsmn.c \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Middlewares\Third_Party\jsmn/jsmn.h \
+  D:\Keil\IAR\arm\inc\c\stddef.h D:\Keil\IAR\arm\inc\c\ycheck.h \
+  D:\Keil\IAR\arm\inc\c\yvals.h D:\Keil\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\Keil\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product.h D:\Keil\IAR\arm\inc\c\ysizet.h

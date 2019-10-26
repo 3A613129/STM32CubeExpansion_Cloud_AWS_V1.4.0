@@ -1,0 +1,15 @@
+"D:\Keil\IAR\arm\bin\armproc.dll" 
+
+"D:\Keil\IAR\arm\bin\armstlink2.dll" 
+
+"D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out" 
+
+--plugin="D:\Keil\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\Keil\IAR\arm\config\debugger\ST\STM32L4xx.dmac" 
+
+--flash_loader="D:\Keil\IAR\arm\config\flashloader\ST\FlashSTM32L4AxxG.board" 
+
+
+
+

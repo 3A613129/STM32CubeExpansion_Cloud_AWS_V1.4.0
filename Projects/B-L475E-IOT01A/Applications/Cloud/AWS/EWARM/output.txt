@@ -1,0 +1,14 @@
+block size =16
+number of segment :1
+number of segment :4
+0x8000188
+0x80090bb
+0x80096bc
+Merging
+SBSFU Base = 0x8000000
+Writing header = 0x8080800
+APPLI Base = 0x8080a00
+Writing to D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\\PostBuild\\\\SBSFU_B-L475E-IOT01_AWS.bin 738384
+"Generating the global elf file (SBSFU and userApp)" 
+系統找不到指定的路徑。
+""C:\\Program Files\\STMicroelectronics\\STM32Cube\\STM32CubeProgrammer\\bin\\STM32_Programmer_CLI" -ms "D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out" "D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM"\\PostBuild\\\\B-L475E-IOT01_AWSsfuh.bin D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\BootLoader_OSC\2_Images_SECoreBin\EWARM\\\..\\..\\2_Images_SBSFU\\EWARM\\B-L475E-IOT01\\Exe\\project.out >> "D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM"\output.txt 2>&1 : failed" 

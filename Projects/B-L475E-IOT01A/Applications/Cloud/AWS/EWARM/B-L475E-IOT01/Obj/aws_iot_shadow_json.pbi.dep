@@ -1,0 +1,20 @@
+aws_iot_shadow_json.pbi: \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Middlewares\Third_Party\AWS\src\aws_iot_shadow_json.c \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include\aws_iot_shadow_json.h \
+  D:\Keil\IAR\arm\inc\c\stdint.h D:\Keil\IAR\arm\inc\c\ycheck.h \
+  D:\Keil\IAR\arm\inc\c\yvals.h D:\Keil\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\\Keil\\IAR\\arm\\inc\\c\\DLib_Config_Full.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product.h D:\Keil\IAR\arm\inc\c\stdbool.h \
+  D:\Keil\IAR\arm\inc\c\stdarg.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include/aws_iot_error.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include/aws_iot_shadow_json_data.h \
+  D:\Keil\IAR\arm\inc\c\stddef.h D:\Keil\IAR\arm\inc\c\ysizet.h \
+  D:\Keil\IAR\arm\inc\c\string.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product_string.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include\aws_iot_json_utils.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/jsmn\jsmn.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include\aws_iot_log.h \
+  D:\Keil\IAR\arm\inc\c\stdio.h D:\Keil\IAR\arm\inc\c\stdlib.h \
+  D:\Keil\IAR\arm\inc\c\DLib_Product_stdlib.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/include\aws_iot_shadow_key.h \
+  D:\Keil\STM32CubeExpansion_Cloud_AWS_V1.4.0\Projects\B-L475E-IOT01A\Applications\Cloud\AWS\EWARM/../../../../../../Middlewares/Third_Party/AWS/samples/STM32Cube\aws_iot_config.h
